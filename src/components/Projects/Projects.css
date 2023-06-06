@@ -1,0 +1,41 @@
+.projects {
+    font-size: 3vw;
+    padding: 150px;
+    text-align: left;
+    margin-right: 200px;
+  }
+  .language {
+    font-size: 1vw;
+  }
+  .title {
+    padding-bottom: 100px;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  .card {
+    font-size: 20px;
+    padding: 15px;
+    margin: 25px;
+    width: 300px;
+    height: 450px;
+    background: linear-gradient(#212a3e, #394867);
+    border: 5px solid #f1f6f9;
+    border-radius: 15px;
+  }
+  @media screen and (max-width: 620px) {
+    .projects {
+      padding: 50px;
+      width: 100%;
+      margin-right: 0px;
+    }
+  }
