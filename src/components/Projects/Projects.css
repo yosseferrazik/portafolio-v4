@@ -28,10 +28,34 @@
     margin: 25px;
     width: 300px;
     height: 450px;
-    background: linear-gradient(#212a3e, #394867);
+    background: linear-gradient(-45deg, #4F4557, #393646);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
     border: 5px solid #f1f6f9;
     border-radius: 15px;
   }
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
+
+
+
+
+
   @media screen and (max-width: 620px) {
     .projects {
       padding: 50px;

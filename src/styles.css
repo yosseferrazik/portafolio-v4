@@ -1,12 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Source+Sans+Pro&display=swap");
 html,
 body {
-  margin: 0;
   color: #f1f6f9;
   text-rendering: optimizeLegibility;
-  background: linear-gradient(#111111, #323a4e) no-repeat fixed center;
-  background-size: cover;
+	background: linear-gradient(-45deg, #393646, #6D5D6E);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .main {
   flex-wrap: wrap;
   font-weight: 300;
