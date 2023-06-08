@@ -1,0 +1,21 @@
+.sidenav {
+  padding: 30px 30px 30px 30px;
+  z-index: 99;
+  position: fixed;
+  bottom: 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+}
+@media screen and (max-width: 620px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}

@@ -1,52 +1,25 @@
 import "./styles.css";
+import Sidenav from "./components/Sidenav/Sidenav";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import {
   FaHeart,
-  FaDiscord,
-  FaYoutube,
-  FaTwitter,
-  FaGithub,
 } from "react-icons/fa";
 
 export default function App() {
   return (
-    <>
-    <div className="pan">
-<div className="stars">
-
-</div>
-    </div>
     <div className="main">
-      <div class="sidenav">
-        <hr id="hr" />
-        <a href="https://discord.gg/raXEg2WNJd" target="_blank">
-          <FaDiscord />
-        </a>
-        ㅤ
-        <a href="https://x.x">
-          <FaYoutube />
-        </a>
-        ㅤ
-        <a href="https://x.x">
-          <FaTwitter />
-        </a>
-        ㅤ
-        <a href="https://x.x">
-          <FaGithub />
-        </a>
-      </div>
+      <div className="bg"></div>
+      <Sidenav/>  
       <Home />
       <About />
       <Projects />
       <footer>
         <p>
-          {" "}
           Hecho con <FaHeart /> por Yossef FTW
         </p>
       </footer>
     </div>
-    </>
   );
 }

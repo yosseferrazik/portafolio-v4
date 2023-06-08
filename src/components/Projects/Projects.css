@@ -2,11 +2,9 @@
     font-size: 3vw;
     padding: 150px;
     text-align: left;
-    margin-right: 200px;
+    margin-right: 50px;
   }
-  .language {
-    font-size: 1vw;
-  }
+
   .title {
     padding-bottom: 100px;
   }
@@ -26,7 +24,7 @@
     font-size: 20px;
     padding: 15px;
     margin: 25px;
-    width: 300px;
+    width: 250px;
     height: 450px;
     background: linear-gradient(-45deg, #4F4557, #393646);
     background-size: 400% 400%;
@@ -47,14 +45,6 @@
 		background-position: 0% 50%;
 	}
 }
-
-
-
-
-
-
-
-
 
   @media screen and (max-width: 620px) {
     .projects {

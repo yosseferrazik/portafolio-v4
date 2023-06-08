@@ -20,7 +20,6 @@ export default function Card({
           <a href={link}>
             <FaLink />
           </a>{" "}
-          <FaStar /> {stars}
           <hr />
           <br />
           {name}
