@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Source+Sans+Pro&display=swap");
+html,
+body {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #333333;
+  opacity: 1;
+  background-image: radial-gradient(beige 0.5px, transparent 0.5px),
+    radial-gradient(beige 0.5px, #333333 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+
+  color: rgb(246, 246, 246);
+  height: 100%;
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.website-container {
+  display: block;
+  margin: auto;
+  max-width: 900px;
+  word-wrap: break-word;
+}
+button,
+h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 200;
+}
+p,
+li,
+ul,
+pre,
+a,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 200;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+*,
+*:before,
+*:after {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+button {
+  border: solid 2px beige;
+  color: beige;
+  border-radius: 5px;
+  transition: 0.3s;
+  background: transparent;
+  margin: 5px;
+}
+
+button:hover {
+  border: solid 2px rgb(153, 153, 137);
+  cursor: pointer;
+  scale: 1.2;
+}
+
+section {
+  margin: 30px 0 30px 0;
+}
