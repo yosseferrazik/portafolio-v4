@@ -1,15 +1,7 @@
 import "./Navbar.css";
-import { useRef } from "react";
-import {
-  RiAsterisk,
-  RiHome2Line,
-  RiUser5Line,
-  RiFileUserLine,
-} from "react-icons/ri";
+import { RiHome2Line, RiUser5Line, RiFileUserLine } from "react-icons/ri";
 
 const Navbar = () => {
-  const navbarRef = useRef<HTMLDivElement | null>(null);
-
   return (
     <nav>
       <div className="right">

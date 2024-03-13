@@ -1,23 +1,6 @@
-import { useState, useEffect } from "react";
 import "./Header.css";
-import {
-  RiAsterisk,
-  RiHome2Line,
-  RiUser5Line,
-  RiFileUserLine,
-  RiGithubLine,
-  RiDiscLine,
-  RiDiscordLine,
-} from "react-icons/ri";
+import { RiGithubLine, RiDiscordLine } from "react-icons/ri";
 const Header = () => {
-  const [and, setAnd] = useState(``);
-
-  useEffect(() => {
-    setInterval(() => {
-      setAnd(`${Math.random()}`);
-    }, 2000);
-  }, [setAnd]);
-
   return (
     <header>
       <div className="header-right">
