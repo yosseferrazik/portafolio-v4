@@ -1,34 +1,35 @@
 #aboutme {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+}
+#aboutme div {
+  display: block;
+  margin-left: auto;
+  width: 40%;
+  padding: 5px;
+  backdrop-filter: blur(00.5px);
+}
+#aboutme div h1 {
+  text-align: center;
+}
+
+#aboutme img {
+  width: 50%;
+  border-radius: 10px;
+  filter: brightness(1);
+}
+@media screen and (max-width: 420px) {
+  #aboutme {
+    flex-wrap: wrap;
   }
   #aboutme div {
+    width: 90%;
     display: block;
-    margin-left: auto;
-    width: 40%;
+    margin: auto;
   }
-  #aboutme div h1 {
-    text-align: center;
-  }
-  
   #aboutme img {
-    width: 50%;
-    border-radius: 10px;
-    filter: brightness(1);
+    width: 90%;
+    display: block;
+    margin: auto;
   }
-  @media screen and (max-width: 420px) {
-    #aboutme {
-      flex-wrap: wrap;
-    }
-    #aboutme div {
-      width: 90%;
-      display: block;
-      margin: auto;
-    }
-    #aboutme img {
-      width: 90%;
-      display: block;
-      margin: auto;
-    }
-  }
-  
+}

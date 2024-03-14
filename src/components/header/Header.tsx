@@ -5,14 +5,12 @@ const Header = () => {
     <header>
       <div className="header-right">
         <h1>
-          Mi nombre es <br />
-          <span>
-            Yossef Errazik{" "}
-            <img
-              src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
-              width="10%"
-            />
-          </span>
+          <img
+            src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
+            width="10%"
+          />
+          &nbsp; Mi nombre es <br />
+          <span>Yossef Errazik </span>
         </h1>
         <div id="header-text">
           <p>Y voy a dejar mi huella en internet</p>

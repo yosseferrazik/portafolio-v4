@@ -1,31 +1,36 @@
 #skills h1 {
-    text-align: center;
-    width: 100%;
-    margin-bottom: 50px;
-  }
-  #skills {
-    width: 100%;
-  }
-  #skills svg {
-    font-size: 50px;
-  }
-  #skills div > div {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 15px;
-    max-width: 70%;
-  }
-  #skills > div {
-    display: flex;
-    align-items: center;
-    border-radius: 15px;
-    background-color: rgba(51, 51, 51, 0.5);
-    border: solid 2px white;
-    padding: 20px;
-  }
-  #skills div u h1 {
-    text-align: center;
-    width: 100%;
-  }
-  
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+#skills {
+  width: 100%;
+}
+#skills svg {
+  font-size: 50px;
+}
+#skills div > div {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  max-width: 70%;
+  margin-inline: 10px;
+  width: auto;
+  word-wrap: break-word;
+}
+#skills div > div.text {
+  display: grid;
+  align-items: center;
+  max-width: 20%;
+}
+
+#skills > div {
+  display: flex;
+  align-content: center;
+  border-radius: 15px;
+  backdrop-filter: blur(2px);
+  border: solid 2px white;
+  padding: 20px;
+}
