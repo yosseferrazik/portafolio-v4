@@ -32,7 +32,7 @@ body {
   word-wrap: break-word;
 }
 button,
-h1 {
+h1,h2 {
   font-family: "Archivo Black", sans-serif;
   font-weight: 200;
 }
@@ -41,7 +41,6 @@ li,
 ul,
 pre,
 a,
-h2,
 h3,
 h4,
 h5,
