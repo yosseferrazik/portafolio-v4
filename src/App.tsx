@@ -1,4 +1,5 @@
 import Aboutme from "./components/about/Aboutme";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
@@ -7,20 +8,18 @@ import Skills from "./components/skills/Skills";
 function App() {
   function reveal() {
     var reveals = document.querySelectorAll(".reveal");
-  
+
     for (var i = 0; i < reveals.length; i++) {
       var windowHeight = window.innerHeight;
       var elementTop = reveals[i].getBoundingClientRect().top;
       var elementVisible = 150;
-  
+
       if (elementTop < windowHeight - elementVisible) {
         reveals[i].classList.add("active");
-      } else {
-        reveals[i].classList.remove("active");
-      }
+      } 
     }
   }
-  
+
   window.addEventListener("scroll", reveal);
   return (
     <div className="website-container">
@@ -35,13 +34,12 @@ function App() {
         <Skills />
         <br />
         <hr />
-        <Projects/>
+        <Projects />
       </main>
+      <Footer />
     </div>
   );
 }
 
 export default App;
-export const sleep = (ms: number) => {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-};
+

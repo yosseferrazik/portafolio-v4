@@ -1,4 +1,3 @@
-import React from "react";
 import "./ProjectCard.css";
 import { RiGithubFill, RiLink } from "react-icons/ri";
 interface ProjectCardProps {
