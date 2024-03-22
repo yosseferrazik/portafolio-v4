@@ -19,7 +19,7 @@ const Aboutme: React.FC = () => {
 
   return (
     <section id="aboutme" className="reveal" >
-      <img src="/src/assets/web-aboutme.webp" alt="Sobre mi" width="20%" className="reveal"/>
+      <img src="https://i.imgur.com/ooNO1ny.png" alt="Sobre mi" width="20%" className="reveal"/>
       <div>
         <h1>Sobre mí</h1>
         <p>
