@@ -1,6 +1,7 @@
 import "./Header.css";
 import { RiGithubLine, RiDiscordLine } from "react-icons/ri";
 const Header = () => {
+
   return (
     <header>
       <div className="header-right">

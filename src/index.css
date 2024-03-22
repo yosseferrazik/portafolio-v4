@@ -13,7 +13,7 @@ body {
   background-color: #333333;
   opacity: 1;
   background-image: radial-gradient(beige 0.5px, transparent 0.5px),
-    radial-gradient(beige 0.5px, #333333 0.5px);
+  radial-gradient(beige 0.5px, #333333 0.5px);
   background-size: 20px 20px;
   background-position: 0 0, 10px 10px;
 
@@ -48,6 +48,8 @@ h6 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 200;
 }
+
+
 a {
   text-decoration: none;
   color: unset;
@@ -81,4 +83,15 @@ section {
 hr {
   border: solid 2.5px #555555;
   border-radius: 10px;
+}
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
 }

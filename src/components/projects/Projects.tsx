@@ -4,7 +4,7 @@ import ProjectCard from "../../shared/card/ProjectCard";
 
 const Projects = () => {
   return (
-    <section className="projects">
+    <section id="projects" className="reveal">
       <h1>Proyectos</h1>
       <p>
         Aqui dejo una serie de proyectos que he ido desarrollando con el tiempo

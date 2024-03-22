@@ -100,3 +100,20 @@ header {
   height: 45px;
   font-size: x-large;
 }
+
+.header-right h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}

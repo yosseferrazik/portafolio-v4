@@ -18,8 +18,8 @@ const Aboutme: React.FC = () => {
   }, []);
 
   return (
-    <section id="aboutme">
-      <img src="/src/assets/web-aboutme.webp" alt="" width="20%" />
+    <section id="aboutme" className="reveal" >
+      <img src="/src/assets/web-aboutme.webp" alt="Sobre mi" width="20%" className="reveal"/>
       <div>
         <h1>Sobre mí</h1>
         <p>
