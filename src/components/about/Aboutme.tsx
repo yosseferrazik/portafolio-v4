@@ -9,11 +9,11 @@ const Aboutme: React.FC = () => {
     const hours = date.getHours();
 
     if (hours < 13) {
-      setGreeting("buenos días");
+      setGreeting("Good morning");
     } else if (hours < 20) {
-      setGreeting("buenas tardes");
+      setGreeting("Good afternon");
     } else {
-      setGreeting("buenas noches");
+      setGreeting("Good evening");
     }
   }, []);
 
@@ -21,14 +21,14 @@ const Aboutme: React.FC = () => {
     <section id="aboutme" className="reveal" >
       <img src="https://i.imgur.com/ooNO1ny.png" alt="Sobre mi" width="20%" className="reveal"/>
       <div>
-        <h1>Sobre mí</h1>
+        <h1>About me</h1>
         <p>
-          Hola {greeting}, me llamo Yossef Errazik, y actualmente estoy cursando
-          un Grado Medio de Sistemas Microinformáticos y Redes. No tengo un rol
-          determinado en lo que refiere a lo que me gusta o lo que hago, si me
-          tuviera que decantar por algo seria el desarrollo web, pero si está
-          relacionado con la tecnología, ten por seguro que me gustará o me
-          parecera interesante.
+          {greeting}, my name is Yossef Errazik, and I'm currently studying a
+          a Middle Degree in Microcomputer Systems and Networking. I don't have a specific role
+          what I like or what I do, if I had to choose something, it would be web
+          if I had to choose something it would be web development, but if it's related to technology, I'm sure I would
+          related to technology, be sure that I will like it or I will find it interesting.
+          I will find it interesting.
         </p>
       </div>
     </section>
